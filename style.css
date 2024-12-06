@@ -4,7 +4,11 @@
 }
 
 body {
+<<<<<<< HEAD
     background: white;
+=======
+    background: black;
+>>>>>>> 4abb87ed72ecf88d48da4543098489a2cc740800
 }
 
 canvas {
@@ -12,7 +16,11 @@ canvas {
 }
 
 #color {
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #BBB;
+>>>>>>> 4abb87ed72ecf88d48da4543098489a2cc740800
     font-family: helvetica, arial, sans-serif;
     font-size: 1.2em;
     position: absolute;

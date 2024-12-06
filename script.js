@@ -20,7 +20,11 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 // the characters
+<<<<<<< HEAD
 var konkani  = "XSCRIPTOR゠アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789XZ"
+=======
+var konkani  = "゠アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789"
+>>>>>>> 4abb87ed72ecf88d48da4543098489a2cc740800
 // converting the string into an array of single characters
 var characters = konkani.split("");
 var font_size = 14;
@@ -38,7 +42,11 @@ function draw() {
     // Get the BG color based on the current time i.e. rgb(hh, mm, ss)
     // translucent BG to show trail
 
+<<<<<<< HEAD
     ctx.fillStyle = "rgba(255,255,255, 0.05)";
+=======
+    ctx.fillStyle = "rgba(0,0,0, 0.05)";
+>>>>>>> 4abb87ed72ecf88d48da4543098489a2cc740800
     ctx.fillRect(0, 0, c.width, c.height);
 
     ctx.fillStyle = "#BBB"; // grey text
@@ -48,7 +56,11 @@ function draw() {
     for (var i = 0; i < drops.length; i++)
     {
         // background color
+<<<<<<< HEAD
         ctx.fillStyle = "rgba(255,255,255,1)";
+=======
+        ctx.fillStyle = "rgba(10,10,10, 1)";
+>>>>>>> 4abb87ed72ecf88d48da4543098489a2cc740800
         ctx.fillRect(i * font_size, drops[i] * font_size,font_size,font_size);
         // a random chinese character to print
         var text = characters[Math.floor(Math.random() * characters.length)];
@@ -74,12 +86,18 @@ function draw() {
     }
 }
 
+<<<<<<< HEAD
 window.onresize=()=>{
     location.reload();
 }
 
 setInterval(draw, root.matrixspeed);
 
+=======
+setInterval(draw, root.matrixspeed);
+
+
+>>>>>>> 4abb87ed72ecf88d48da4543098489a2cc740800
 function livelyPropertyListener(name, val)
 {
   switch(name) {
