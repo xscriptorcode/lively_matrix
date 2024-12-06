@@ -8,7 +8,6 @@ See it in action @ http://parambirs.github.io/matrix
 
 **Customization test**
 ![screenshot](xscriptorlivelymod.png)
-<img src="xscriptorlivelymod.png" alt="Descripción de la imagen" width="400"/>
 =======
 @ 2020-09-05 - added lively customizable options (rainbow / color select) - khuong
 >>>>>>> 4abb87ed72ecf88d48da4543098489a2cc740800
